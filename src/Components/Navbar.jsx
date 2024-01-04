@@ -35,7 +35,7 @@ function Navbar() {
         </div>
         <ul className='app__navbar-links'>
             {
-                ['Home','About','Work','Skills','Contact'].map((item)=>(
+                ['home','about','work','skills','contact'].map((item)=>(
                     <li key={`link-${item}`} className={active === item ? "active" : ""}>
                     <a href={`#${item}`} onClick={()=>{setActive(item)}}>{item}</a></li>
                 ))
@@ -49,9 +49,8 @@ function Navbar() {
                     <HiX onClick={()=>setToggle(false)}/>
                     <ul>
                     {
-                        ['Home','About','Work','Skills','Contact'].map((item)=>(
-                            <li key={item}><a href={`#${item}`}>
-                            {item}</a></li>
+                        ['home','about','work','skills','contact'].map((item)=>(
+                            <li key={item}><a href={'#'+item} onClick={() => setToggle(false)}>{item}</a></li>
                         ))
                     }
                     </ul>
