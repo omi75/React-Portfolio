@@ -27,10 +27,10 @@ function Contact() {
         <h2 className='head-text'><span>Contact Me </span> Questions, Thoughts, Or Just Want To <span>Say Hello?</span></h2>
         <div className="app__contact-cards">
             <div className="app__contact-card">
-            <img src={email} alt="email" loading='lazy'/>
-            <a href="mailto:onkar.mhd@gmail.com" className="p-text">
-              onkar.mhd@gmail.com
-            </a>
+              <img src={email} alt="email" loading='lazy'/>
+              <a href="mailto:onkar.mhd@gmail.com" className="p-text">
+                onkar.mhd@gmail.com
+              </a>
             </div>
         </div>
 
