@@ -64,7 +64,7 @@ export const projectWork=
             title:"Portfolio Using React JS",
             desc:"A visually attractive Portfolio website! Using React JS",
             git:"https://github.com/omi75",
-            live:""
+            live:"https://omi-portfolio.netlify.app/"
         },
         {
             img:shopping,
@@ -108,7 +108,7 @@ export const projectWork=
             title:"Portfolio Using React JS",
             desc:"A visually attractive Portfolio website! Using React JS",
             git:"https://github.com/omi75",
-            live:""
+            live:"https://omi-portfolio.netlify.app/"
         },
         {
             img:shopping,
