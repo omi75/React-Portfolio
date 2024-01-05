@@ -49,21 +49,21 @@ function Footer() {
         {/* app__flex app__footer  */}
          <div className="w-full h-24 bg-[#2f2e41] flex justify-between items-center px-2 md:py-4 md:px-8">
             {/* app__footer-contacts app__flex */}
-            <motion.div className="flex gap-x-4 ml-0 md:ml-8" variants={parentVariant} whileInView="view" >
+            <motion.div className="flex gap-x-4 ml-0 md:ml-8 " variants={parentVariant} whileInView="view" >
                 {/* app__flex */}
-                <motion.div className="text-lg md:text-2xl text-white-color rounded-full border border-white-color p-2 text-center md:py-2 md:px-2" variants={childSocialVariant} whileInView="view">
+                <motion.div className="hover:bg-white-color hover:text-black-color text-lg md:text-2xl text-white-color rounded-full border border-white-color p-2 text-center md:py-2 md:px-2" variants={childSocialVariant} whileInView="view">
                     <a href="https://www.linkedin.com/in/onkar-mahindrakar-66187422b/" target="_blank" rel="noreferrer" className="app__flex">
                      <GrLinkedinOption />
                     </a>
                 </motion.div>
                 
-                <motion.div className="text-lg md:text-2xl text-white-color rounded-full border border-white-color p-2 text-center md:py-2 md:px-2" variants={childSocialVariant} hileInView="view" >
+                <motion.div className="hover:bg-white-color hover:text-black-color text-lg md:text-2xl text-white-color rounded-full border border-white-color p-2 text-center md:py-2 md:px-2" variants={childSocialVariant} hileInView="view" >
                 <a href="https://github.com/omi75" target="_blank" rel="noreferrer" className="app__flex">
                     <FaGithub  />
                 </a>
                 </motion.div>
                 
-                <motion.div className="text-lg md:text-2xl text-white-color rounded-full border border-white-color p-2 text-center md:py-2 md:px-2" variants={childSocialVariant} whileInView="view">
+                <motion.div className="hover:bg-white-color hover:text-black-color text-lg md:text-2xl text-white-color rounded-full border border-white-color p-2 text-center md:py-2 md:px-2" variants={childSocialVariant} whileInView="view">
                     <a href="https://www.instagram.com/urstrulyonkar" target="_blank" rel="noreferrer" className="app__flex">
                         <BsInstagram />
                     </a>

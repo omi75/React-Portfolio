@@ -36,21 +36,6 @@
     }
   }
   
-  .copyright {
-    width: 100%;
-    padding: 1rem 0 0;
-  
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-end;
-  
-    p {
-      text-transform: uppercase;
-      color: var(--black-color);
-    }
-  }
-  
   .head-text {
     font-size: 2.75rem;
     font-weight: 800;
@@ -102,7 +87,6 @@
     justify-content: flex-end;
     align-items: center;
     flex-direction: column;
-  
     padding: 1rem;
     padding-bottom: 3rem;
   
@@ -186,10 +170,6 @@
     .app__navigation,
     .app__social {
       display: none;
-    }
-  
-    .copyright {
-      padding: 2rem;
     }
   }
   
