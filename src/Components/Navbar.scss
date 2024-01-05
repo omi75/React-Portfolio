@@ -1,13 +1,10 @@
-// .app__navbar {
-//     width: 100%;
-//     display: flex;
-//     justify-content: space-between;
-//     align-items: center;  
-//     padding: 1rem 2rem;
-//     position: fixed;
-//     z-index: 2;
-//     transition: all 0.3s ease;
-//   }
+.dark{
+  background-color: var(--nav-bg) !important;
+}
+
+.nav-img{
+  color:var(--nav-img);
+}
 
 .app__navbar-links {
     flex: 1;
@@ -15,7 +12,7 @@
     justify-content: center;
     align-items: center;
     list-style:none;
-  
+
     li {
       margin: 0 1rem;
       cursor: pointer;
@@ -74,7 +71,7 @@
     background-color: var(--secondary-color);
   
     svg {
-      color: var(--white-color);
+      color: #fff;
       width: 70%;
       height: 70%;
     }

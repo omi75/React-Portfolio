@@ -1,4 +1,6 @@
-.app__about {
+
+  
+  .app__about {
     flex: 1;
     flex-direction: column;
     width: 100%;
@@ -12,7 +14,6 @@
     align-items: flex-start;
     margin-top: 2rem;
     padding: 1rem;
-  
     @media screen and (max-width: 1000px) {
       width: 80%;
       flex-direction: column;

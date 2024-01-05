@@ -1,10 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import logo from '../assets/logo.png'
+import logo2 from '../assets/onkar-light.png'
 import { HiMenuAlt4, HiX } from "react-icons/hi";
+import { MdOutlineLightMode } from "react-icons/md";
+import { FaMoon } from "react-icons/fa";
+
 import { motion } from "framer-motion";
 import '../Components/Navbar.scss'
 
-function Navbar() {
+function Navbar({theme,switchTheme}) {
     const [toggle, setToggle] = useState(false); 
     const [classFloat, setClassFloat] = useState("");
     const [active, setActive] = useState("");
@@ -29,9 +33,12 @@ function Navbar() {
     }, []);
 
   return (
-    <nav className={`w-full flex justify-between items-center py-4 px-8 fixed z-[2] transition-all duration-300 ease ${classFloat}`}>
+    <nav className={`${theme} w-full flex justify-between items-center py-4 px-8 fixed z-[2] transition-all duration-300 ease ${classFloat}`}>
         <div className='app__navbar-logo flex justify-center items-center cursor-pointer'>
-            <img src={logo} alt="logo" loading='lazy' className='w-[90px] h-[25px] 2xl:w-[130px] 2xl:h-[40px]'/>
+            {
+              theme ==='light' ? (<img src={logo} alt="logo" loading='lazy' className='w-[90px] h-[25px] 2xl:w-[130px] 2xl:h-[40px]'/>) :
+              (<img src={logo2} alt="logo2" loading='lazy' className='w-[90px] h-[25px] 2xl:w-[130px] 2xl:h-[40px]'/>)
+            } 
         </div>
         <ul className='app__navbar-links'>
             {
@@ -41,6 +48,12 @@ function Navbar() {
                 ))
             }
         </ul>
+        {/* Light & Dark Theme Functionality */}
+        <div className='nav-img flex justify-center items-center gap-x-4 cursor-pointer text-[1.5rem]' onClick={switchTheme}>
+          {
+            theme === 'light' ? (<MdOutlineLightMode />) : (<FaMoon/>)
+          }
+        </div>
 
         <section className='app__navbar-menu'>
             <HiMenuAlt4 onClick={()=>setToggle(true)}/>

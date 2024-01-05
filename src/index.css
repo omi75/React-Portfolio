@@ -11,8 +11,25 @@
   --gray-color: #6b7688;
   --brown-color: #46364a;
   --white-color: #ffffff;
+  --contact:#6b7688;
 }
 
+  [data-theme='dark']{
+    --font-base: "DM Sans", sans-serif;
+    --primary-color:#1f1f1f;
+    --secondary-color: #313bac;
+    --black-color: #fff;
+    --lightGray-color: #1f1f1f ; /* #292929  */
+    --gray-color: #fff;   /* #6b7688; */
+    --brown-color: #e0e0e0;
+    --white-color:#292929;    /*#333333;*/
+    --nav-bg:#1f1f1f;
+    --nav-img:#fff;
+    --home1:#1f1f1f;
+    --home2:#333333;
+    --contact:#6b7688;
+  }
+  
 * {
   box-sizing: border-box;
   padding: 0;

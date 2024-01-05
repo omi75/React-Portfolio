@@ -37,7 +37,7 @@ function About() {
         }
     ];
   return (
-    <div>
+    <div className='about'>
         <h2 className='head-text'>
         I Know That <span>Good Design</span> <br />
           Means <span>Good Business</span>
