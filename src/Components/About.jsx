@@ -7,11 +7,12 @@ import ps from '../assets/problemSolving.png'
 import lead from '../assets/leadership.jpg'
 import { motion } from "framer-motion";
 import {AppWrap ,MotionWrap} from '../wrapper'
+import cv from '../assets/Onkar_CV.pdf';
 
 function About() {
     function viewResumeHandler()
     {
-        window.open('https://www.google.com',"_blank");
+        window.open(cv,"_blank");
     }
 
     const card_data=[
