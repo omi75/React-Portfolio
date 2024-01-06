@@ -12,6 +12,7 @@
   --brown-color: #46364a;
   --white-color: #ffffff;
   --contact:#6b7688;
+  --typwrite:#313bac;
 }
 
   [data-theme='dark']{
@@ -28,6 +29,7 @@
     --home1:#1f1f1f;
     --home2:#333333;
     --contact:#6b7688;
+    --typwrite:#ffffff;
   }
   
 * {
