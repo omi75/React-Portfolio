@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.scss'
-import profile from '../assets/my-photo.jpg'
+import profile from '../assets/k1.jpg'
 import mern from '../assets/fullstack.jpg'
 import tech from '../assets/tech.png'
 import ps from '../assets/problemSolving.png'
